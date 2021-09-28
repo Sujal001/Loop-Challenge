@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int i,j,N ;
+	printf("No of rows\t");
+	scanf("%d",&N);
+	for(i=1;i<=N;i++)  //loop 1 to declare upto the number of rows to which we need to repeat 
+	{
+		
+		for(j=1;j<=i;j++)    // loo2 used to declare the coloums to which we need to execute the loop
+		{
+			printf("01");
+		}
+		printf("\n");
+	}
+}
